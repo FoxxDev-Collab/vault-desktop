@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"D:\\\\Test Vault\\\\0002\\\\.tools\\\\grype.exe\":*)",
+      "Bash(\".tools\\\\grype.exe\" dir:. -o json)",
+      "Bash(npx tsc:*)",
+      "Bash(.tools/grype.exe:*)",
+      "Bash(\".tools\\\\grype.exe\" dir:. -o json --exclude \"**/node_modules/**\")"
+    ]
+  }
+}
